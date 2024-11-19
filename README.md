@@ -1,4 +1,5 @@
 # 3rdWEBTECHMiniProjectSubmission
+(READ THIS IN CODE MODE)
 3rd Sem WebTechMiniProject Submission
 How to Run Code ->
 
@@ -25,6 +26,7 @@ How to Run Code ->
     "scripts": {
     "devStart": "nodemon server.js"
   }
+  and simply paste the files in the backend folder of this repo to the backend folder in you system
 10)Delte everything from the src folder of the frontend folder , and create two folders in it , one component and the other FrontJigs , and simply post given in this repo to the src folder, component and FrontJigs folder 
 11)To run the code , first navigate to the frontend folder , run the code "npm run dev" and then navigate to backend folder and the run the command "npm run devStart"
 
