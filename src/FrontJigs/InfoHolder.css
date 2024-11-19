@@ -1,0 +1,89 @@
+.holder {
+    position: absolute;
+    top: 60px; 
+    height: calc(100vh - 60px); 
+    background-color: rgb(255, 255, 255);
+    overflow-y: auto; 
+    padding: 20px; 
+    box-sizing: border-box; 
+    transition: width 0.9s ease, left 0.9s ease; 
+}
+
+
+.holder.open {
+    left: 240px; 
+    width: calc(100% - 240px);
+}
+
+
+.holder.closed {
+    left: 60px; 
+    width: calc(100% - 60px);
+}
+
+
+.holder .home {
+    display: grid;                          
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 20px;                        
+    padding-left: 20px;                   
+}
+
+
+
+
+.card {
+    background: lightgray; 
+    padding: 20px;      
+    border-radius: 5px;   
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    display: flex;        
+    flex-direction: column; 
+    justify-content: space-between; 
+}
+.holder .progress {
+    position: absolute; 
+    top: 0;             
+    left: 0;            
+    width: 100%;       
+    height: 100%;       
+    display: flex;     
+    justify-content: center; 
+    align-items: center; 
+    background-color: rgb(24, 255, 255); 
+    color: rgb(0, 0, 0); 
+    font-size: 2em;
+}
+.holder .visit-map-container { 
+    position: absolute;
+    top: 0;             
+    left: 0;            
+    width: 100%;       
+    height: 100%;       
+
+    background-color: rgb(255, 255, 255); 
+    color: rgb(0, 0, 0); 
+    font-size: 2em;
+    overflow-y: auto;
+
+}
+
+
+  
+  .progress-item {
+    margin-bottom: 15px; 
+    border-bottom: 1px solid #ddd; 
+    padding-bottom: 10px;
+  }
+  
+
+  .user-container{
+    width : 97%;
+    height : 90%;
+  }
+
+
+.Author{
+    justify-content: center;
+    align-items: center;
+}

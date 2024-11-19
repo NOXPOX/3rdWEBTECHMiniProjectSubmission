@@ -1,0 +1,103 @@
+
+.container {
+    position: fixed;
+    top: 60px; 
+    left: -350px;
+    width: 200px; 
+    height: calc(100vh - 60px); 
+    background-color: #bd9aec;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    transition: left 0.9s ease; 
+  }
+  
+  
+ 
+  .container.open {
+    left: 0; 
+  }
+  
+  
+  .menu-strip {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 100vh;
+    background-color: #4a4a4a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    z-index: 10; 
+  }
+  
+  .menu-strip:hover {
+    background-color: #7b5cbf;
+  }
+  
+ 
+  .row {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+  }
+  .row h1{
+    margin-left: 10px;
+  }
+  .row p{
+    margin-left: 10px;
+  }
+  .row:hover {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+  }
+  
+ 
+  .row h1 {
+    font-size: 1.8rem;
+    color: #4a4a4a;
+    margin: 0;
+  }
+  
+
+  .other-map{
+    font-size: 1.2rem;
+    color: #555;
+    margin-left: 15px;
+    margin: 0;
+  }
+  
+
+  svg {
+    vertical-align: middle;
+    color: #4a4a4a;
+  }
+  
+
+  svg:hover, p:hover {
+    color: #7b5cbf;
+  }
+  
+
+
+.profile-section {
+  margin-top: auto; 
+  width: 100%; 
+  padding-bottom: 30px;
+}
+
+.profile-section .row {
+  padding-top: 15px; 
+  border-top: 1px solid #ddd; 
+}
