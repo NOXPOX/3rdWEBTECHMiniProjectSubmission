@@ -13,6 +13,8 @@ How to Run Code ->
 
 7)Now Install Libraries in the backend folder run this command in the backend folder 
   npm install express mongoose cors multer dotenv bcrypt jsonwebtoken body-parser nodemon
+  Note use "npm install --save-dev nodemon" to download the library locally in your folder
+
 8)Now go to backend folder and run the command 
   npm init
 9) this should give you either one or two .json files 
